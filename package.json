@@ -1,5 +1,5 @@
 {
-  "name": "csv-formatter",
+  "name": "csv-semicolon-quotes-format",
   "version": "1.0.0",
   "description": "A little script to format CSV files with `;` as delimiters and `\"` as data containers.",
   "main": "index.js",
@@ -7,14 +7,14 @@
     "test": "node index.js"
   },
   "bin": {
-    "csv-formatter": "index.js"
+    "csv-format": "index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:studiometa/csv-formatter.git"
   },
-  "author": "Titouan Mathis <titouan.mathis@gmail.com> (titouanmathis.com)",
-  "license": "ISC",
+  "author": "Titouan Mathis",
+  "license": "MIT",
   "homepage": "https://github.com/studiometa/csv-formatter#readme",
   "dependencies": {
     "fast-csv": "^2.0.0"
