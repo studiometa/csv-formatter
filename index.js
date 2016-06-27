@@ -4,7 +4,12 @@
 const csv = require('fast-csv');
 let array = [];
 
-const file = process.argv[2] ? process.argv[2] : `${__dirname}/annuaire_vignoble_31-05-2016.csv`;
+const file = process.argv[2];
+
+if (!file) {
+	console.log('Oops, something went wrong...');
+	return;
+}
 
 // Parse the original CSV file
 csv
